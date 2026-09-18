@@ -4,7 +4,7 @@ import LoginButton from "../LoginButton";
 const Navbar = () => {
   const linkClasses = ({ isActive }) =>
     `font-medium transition-colors duration-200 ${
-      isActive ? "text-[#E07A5F]" : "text-[#2D2420] hover:text-[#E07A5F]"
+      isActive ? "text-[#db5f3d]" : "text-[#2D2420] hover:text-[#db5f3d]"
     }`;
 
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <Link
           to="/"
-          className="text-2xl font-bold text-[#E07A5F] tracking-tight"
+          className="text-2xl font-bold text-[#db5f3d] tracking-tight"
         >
           Recipe<span className="text-[#2D2420]">Finder</span>
         </Link>
